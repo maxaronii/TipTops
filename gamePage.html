@@ -1,0 +1,60 @@
+<html>
+<header>
+<link href="style.css" rel="stylesheet"/>
+
+</header>
+<body>
+    <header class="box">
+          <div>
+              <article>
+                  <span class="box2">
+                      <a href="index.html">
+                          <img id="logo" src="images\tiptop.png" alt="logo"/>
+                          <font size="+3" color="black">
+                              TipTops
+                          </font>
+                      </a>
+                  </span>
+                  <span class="box3">
+                      <a href="imagePage.html">
+                          <font size="+2" color="black">Image Page</font>
+                      </a>
+                  </span>
+                  <span class="box3">
+                      <a href="videoPage.html">
+                          <font size="+2" color="black">Video Page</font>
+                      </a>
+                  </span>
+                  <span class="box3">
+                      <a href="gamePage.html">
+                          <font size="+2" color="black">Game Page</font> 
+                      </a>
+                  </span>
+              </article>
+          </div>
+        </header>
+    <main>
+        <div id="game1">
+            <h3>Clicking Game</h3>
+            <button id="count-btn" onclick="add()">Button</button>
+            <line>
+                Times Clicked:
+            </line> 
+            <line id="numberClicked">
+                0
+            </line>
+            <script src="index.js"></script>
+        </div>
+        <p></p>
+        <div id="game2">
+            <h3>Star Field</h3>
+            <canvas id="bingo" width="500" height="500"></canvas>
+            <script src="bongo.js"></script>
+        </div>
+        <p></p>
+        <div id="game3">
+            <a href="lua\luaPage.html">Lua game</a>
+        </div>
+    </main>
+</body>
+</html> 
