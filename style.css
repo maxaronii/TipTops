@@ -1,0 +1,75 @@
+body {
+background: #FFFFF;
+    color: black;
+}
+
+.box {
+    height: 50px;
+    width: 98%;
+    padding: .25em;
+    margin: 2px;
+    background-color: lightblue;
+}
+
+.box2 {
+    height: 50px;
+    width: 85px;
+    padding: .75em;
+    margin: 2px;
+    background-color: rgb(200,200,255);
+}
+
+.box3 {
+    height: 50px;
+    width: 96%;
+    padding: .25em;
+    margin: 2px;
+    background-color: rgb(200,200,255);
+}
+
+.main {
+    width: 98%;
+    height: 400px;
+    background-color: rgb(250,250,250);
+    padding: 1em;
+    margin: 1px;
+}
+
+#logo {
+    height: 40px;
+    float:left;
+}
+
+#footer {
+    background-color: lightblue;
+    height: 100px;
+    width: 96%;
+    margin: 1px;
+    padding: 1em;
+}
+
+#count-btn {
+    background-color: red;
+    width: 200px;  
+    height: 80px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: .5s;
+
+}
+#count-btn:hover {
+    background-color: rgb(225,0,0)   
+}
+
+#game1 {
+    border-style: solid;
+}
+
+#game2 {
+    border-style: solid;
+}
+
+#game3 {
+    border-style: solid;   
+}
